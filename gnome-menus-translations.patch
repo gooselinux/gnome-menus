@@ -1,0 +1,752 @@
+diff -urN a/po/es.po b/po/es.po
+--- a/po/es.po	2010-05-05 17:36:02.062154700 +0530
++++ b/po/es.po	2010-05-05 17:36:22.552154357 +0530
+@@ -1,19 +1,19 @@
+-# translation of gnome-menus to spanish
++# translation of es.po to Spanish
+ # This file is distributed under the same license as the PACKAGE package.
+ # Copyright (C) 2005 Gnome Foundation, 2005.
+ #
+ # Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2005, 2006.
+ # Claudio Saavedra <csaavedra@alumnos.utalca.cl>, 2007.
+ # Jorge González <jorgegonz@svn.gnome.org>, 200, 2009.
++# Gladys Guerrero  <gguerrer@redhat.com>, 2010.
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: gnome-menus.HEAD.es\n"
+-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+-"menus&component=general\n"
+-"POT-Creation-Date: 2009-06-21 17:35+0000\n"
+-"PO-Revision-Date: 2009-06-27 14:57+0200\n"
+-"Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
+-"Language-Team: Español <gnome-es-list@gnome.org>\n"
++"Project-Id-Version: es\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2010-03-29 13:13+0530\n"
++"PO-Revision-Date: 2010-04-14 13:51+1000\n"
++"Last-Translator: Gladys Guerrero  <gguerrer@redhat.com>\n"
++"Language-Team: Spanish <es@li.org>\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+@@ -78,8 +78,7 @@
+ 
+ #: ../desktop-directories/LookAndFeel.directory.in.h:2
+ msgid "Settings controlling the desktop appearance and behavior"
+-msgstr ""
+-"Propiedades que controlan la apariencia y el comportamiento del escritorio"
++msgstr "Propiedades que controlan la apariencia y el comportamiento del escritorio"
+ 
+ #: ../desktop-directories/Network.directory.in.h:1
+ msgid "Internet"
+@@ -111,8 +110,7 @@
+ 
+ #: ../desktop-directories/Settings-System.directory.in.h:2
+ msgid "Change system-wide settings (affects all users)"
+-msgstr ""
+-"Cambia las preferencias globales del sistema (afecta a todos los usuarios)"
++msgstr "Cambia las preferencias globales del sistema (afecta a todos los usuarios)"
+ 
+ #: ../desktop-directories/Settings.directory.in.h:1
+ msgid "Personal preferences"
+@@ -185,7 +183,7 @@
+ 
+ #: ../simple-editor/gmenu-simple-editor.ui.h:3
+ msgid "_Defaults"
+-msgstr "_Predeterminados"
++msgstr "Pre_determinados"
+ 
+ #: ../simple-editor/gmenu-simple-editor.ui.h:4
+ msgid "_Menus:"
+@@ -194,7 +192,6 @@
+ #. Translators: %s is the version number
+ #: ../simple-editor/GMenuSimpleEditor/main.py:49
+ #, python-format
+-#| msgid "Menu Editor"
+ msgid "Simple Menu Editor %s"
+ msgstr "Editor simple del menú %s"
+ 
+@@ -221,7 +218,7 @@
+ 
+ #: ../util/test-menu-spec.c:33
+ msgid "MENU_FILE"
+-msgstr "ARCHIVO_MENÚ"
++msgstr "_FICHERO DE MENÚ"
+ 
+ #: ../util/test-menu-spec.c:34
+ msgid "Monitor for menu changes"
+@@ -274,8 +271,3 @@
+ "- probar la implementación de GNOME de la Especificación del Menú de "
+ "Escritorio"
+ 
+-#~ msgid "Universal access related preferences"
+-#~ msgstr "Preferencias relacionadas con el acceso universal"
+-
+-#~ msgid "Personal preferences and settings"
+-#~ msgstr "Preferencias y configuración personales"
+diff -urN a/po/kn.po b/po/kn.po
+--- a/po/kn.po	2010-05-05 17:36:02.059154631 +0530
++++ b/po/kn.po	2010-05-05 17:36:21.449192078 +0530
+@@ -2,19 +2,19 @@
+ # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+ # This file is distributed under the same license as the PACKAGE package.
+ #
+-# Shankar Prasad <svenkate@redhat.com>, 2007, 2008, 2009.
++# Shankar Prasad <svenkate@redhat.com>, 2007, 2008, 2009, 2010.
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: gnome-menus.master.kn\n"
+-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-menus&component=general\n"
+-"POT-Creation-Date: 2009-06-21 17:35+0000\n"
+-"PO-Revision-Date: 2009-09-16 00:36+0530\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2010-03-29 13:13+0530\n"
++"PO-Revision-Date: 2010-03-24 17:49+0530\n"
+ "Last-Translator: Shankar Prasad <svenkate@redhat.com>\n"
+-"Language-Team: Kannada <en@li.org>\n"
++"Language-Team: kn-IN <>\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+-"X-Generator: KBabel 1.11.4\n"
++"X-Generator: Lokalize 1.0\n"
+ "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+ 
+ #: ../desktop-directories/AudioVideo.directory.in.h:1
+@@ -31,7 +31,7 @@
+ 
+ #: ../desktop-directories/Development.directory.in.h:2
+ msgid "Tools for software development"
+-msgstr "ತಂತ್ರಾಂಶ ಅಭಿವೃದ್ದಿಗೆ ಉಪಕರಣಗಳು"
++msgstr "ತಂತ್ರಾಂಶ ವಿಕಸನೆಗಾಗಿನ ಉಪಕರಣಗಳು"
+ 
+ #: ../desktop-directories/Education.directory.in.h:1
+ msgid "Education"
+@@ -59,15 +59,15 @@
+ 
+ #: ../desktop-directories/Hardware.directory.in.h:2
+ msgid "Settings for several hardware devices"
+-msgstr "ಹಲವಾರು ಯಂತ್ರಾಂಶ ಸಾಧನಗಳಿಗಾಗಿನ ಸಂಯೋಜನೆಗಳು"
++msgstr "ಹಲವಾರು ಯಂತ್ರಾಂಶ ಸಾಧನಗಳಿಗಾಗಿನ ಸಿದ್ಧತೆಗಳು"
+ 
+ #: ../desktop-directories/InternetAndNetwork.directory.in.h:1
+ msgid "Internet and Network"
+-msgstr "ಅಂತರ್ಜಾಲ ಹಾಗು ಜಾಲಬಂಧ"
++msgstr "ಅಂತರಜಾಲ ಹಾಗು ಜಾಲಬಂಧ"
+ 
+ #: ../desktop-directories/InternetAndNetwork.directory.in.h:2
+ msgid "Network-related settings"
+-msgstr "ಜಾಲಬಂಧ-ಸಂಬಂಧಿತ ಸಂಯೋಜನೆಗಳು"
++msgstr "ಜಾಲಬಂಧ-ಸಂಬಂಧಿತ ಸಿದ್ಧತೆಗಳು"
+ 
+ #: ../desktop-directories/LookAndFeel.directory.in.h:1
+ msgid "Look and Feel"
+@@ -75,15 +75,15 @@
+ 
+ #: ../desktop-directories/LookAndFeel.directory.in.h:2
+ msgid "Settings controlling the desktop appearance and behavior"
+-msgstr "ಗಣಕತೆರೆಯ ಸ್ವರೂಪ ಹಾಗು ವರ್ತನೆಯನ್ನು ನಿಯಂತ್ರಿಸುವ ಸಂಯೋಜನೆಗಳು"
++msgstr "ಗಣಕತೆರೆಯ ಸ್ವರೂಪ ಹಾಗು ವರ್ತನೆಯನ್ನು ನಿಯಂತ್ರಿಸುವ ಸಿದ್ಧತೆಗಳು"
+ 
+ #: ../desktop-directories/Network.directory.in.h:1
+ msgid "Internet"
+-msgstr "ಅಂತರ್ಜಾಲ"
++msgstr "ಅಂತರಜಾಲ"
+ 
+ #: ../desktop-directories/Network.directory.in.h:2
+ msgid "Programs for Internet access such as web and email"
+-msgstr "ಜಾಲ ಹಾಗು ಇಮೈಲಿನಂತಹ ಅಂತರ್ಜಾಲವನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳುವ ಪ್ರೊಗ್ರಾಂಗಳು"
++msgstr "ಜಾಲ ಹಾಗು ಇಮೈಲಿನಂತಹ ಅಂತರಜಾಲವನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳುವ ಪ್ರೊಗ್ರಾಂಗಳು"
+ 
+ #: ../desktop-directories/Office.directory.in.h:1
+ msgid "Office"
+@@ -99,7 +99,7 @@
+ 
+ #: ../desktop-directories/Personal.directory.in.h:2
+ msgid "Personal settings"
+-msgstr "ವೈಯಕ್ತಿಕ ಸಂಯೋಜನೆಗಳು"
++msgstr "ವೈಯಕ್ತಿಕ ಸಿದ್ಧತೆಗಳು"
+ 
+ #: ../desktop-directories/Settings-System.directory.in.h:1
+ msgid "Administration"
+@@ -107,7 +107,7 @@
+ 
+ #: ../desktop-directories/Settings-System.directory.in.h:2
+ msgid "Change system-wide settings (affects all users)"
+-msgstr "ಗಣಕಾದ್ಯಂತದ ಸಂಯೋಜನೆಗಳನ್ನು ಬದಲಾಯಿಸು (ಎಲ್ಲಾ ಬಳಕೆದಾರರಿಗೂ ಪರಿಣಾಮಬೀರುತ್ತದೆ)"
++msgstr "ವ್ಯವಸ್ಥೆಯಾದ್ಯಂತದ ಸಿದ್ಧತೆಗಳನ್ನು ಬದಲಾಯಿಸಿ (ಎಲ್ಲಾ ಬಳಕೆದಾರರ ಮೇಲೂ ಪರಿಣಾಮಬೀರುತ್ತದೆ)"
+ 
+ #: ../desktop-directories/Settings.directory.in.h:1
+ msgid "Personal preferences"
+@@ -120,27 +120,27 @@
+ #: ../desktop-directories/System.directory.in.h:1
+ #: ../desktop-directories/X-GNOME-Menu-System.directory.in.h:2
+ msgid "System"
+-msgstr "ಗಣಕ"
++msgstr "ವ್ಯವಸ್ಥೆ"
+ 
+ #: ../desktop-directories/System.directory.in.h:2
+ msgid "System settings"
+-msgstr "ಗಣಕ ಸಂಯೋಜನೆಗಳು"
++msgstr "ವ್ಯವಸ್ಥೆಯ ಸಿದ್ಧತೆಗಳು"
+ 
+ #: ../desktop-directories/System-Tools.directory.in.h:1
+ msgid "System Tools"
+-msgstr "ಗಣಕ ಉಪಕರಣಗಳು"
++msgstr "ವ್ಯವಸ್ಥೆಯ ಉಪಕರಣಗಳು"
+ 
+ #: ../desktop-directories/System-Tools.directory.in.h:2
+ msgid "System configuration and monitoring"
+-msgstr "ಗಣಕ ಸಂರಚನೆ ಹಾಗು ಪರಿವೀಕ್ಷಣೆ"
++msgstr "ವ್ಯವಸ್ಥೆಯ ಸಂರಚನೆ ಹಾಗು ಪರಿವೀಕ್ಷಣೆ"
+ 
+ #: ../desktop-directories/Utility-Accessibility.directory.in.h:1
+ msgid "Universal Access"
+-msgstr "ಜಾಗತಿಕ ನಿಲುಕಣೆ(Universal Access)"
++msgstr "ಜಾಗತಿಕ ನಿಲುಕಣೆ"
+ 
+ #: ../desktop-directories/Utility-Accessibility.directory.in.h:2
+ msgid "Universal Access Settings"
+-msgstr "ಜಾಗತಿಕ ನಿಲುಕಣೆ ಸಂಯೋಜನೆಗಳು"
++msgstr "ಜಾಗತಿಕ ನಿಲುಕಣೆ ಸಿದ್ಧತೆಗಳು"
+ 
+ #: ../desktop-directories/Utility.directory.in.h:1
+ msgid "Accessories"
+@@ -156,7 +156,7 @@
+ 
+ #: ../desktop-directories/X-GNOME-Menu-System.directory.in.h:1
+ msgid "Personal preferences and administration settings"
+-msgstr "ವೈಯಕ್ತಿಕ ಆದ್ಯತೆಗಳು ಹಾಗು ನಿರ್ವಹಣಾ ಸಂಯೋಜನೆಗಳು"
++msgstr "ವೈಯಕ್ತಿಕ ಆದ್ಯತೆಗಳು ಹಾಗು ನಿರ್ವಹಣಾ ಸಿದ್ಧತೆಗಳು"
+ 
+ #: ../desktop-directories/X-GNOME-Other.directory.in.h:1
+ msgid "Applications that did not fit in other categories"
+@@ -180,7 +180,7 @@
+ 
+ #: ../simple-editor/gmenu-simple-editor.ui.h:3
+ msgid "_Defaults"
+-msgstr "ಡೀಫಾಲ್ಟ್‍ಗಳು(_D)"
++msgstr "ಪೂರ್ವನಿಯೋಜಿತ(_D)"
+ 
+ #: ../simple-editor/gmenu-simple-editor.ui.h:4
+ msgid "_Menus:"
+@@ -189,7 +189,6 @@
+ #. Translators: %s is the version number
+ #: ../simple-editor/GMenuSimpleEditor/main.py:49
+ #, python-format
+-#| msgid "Menu Editor"
+ msgid "Simple Menu Editor %s"
+ msgstr "ಸರಳ ಮೆನು ಸಂಪಾದಕ %s"
+ 
+@@ -220,7 +219,7 @@
+ 
+ #: ../util/test-menu-spec.c:34
+ msgid "Monitor for menu changes"
+-msgstr "ಮೆನು ಬದಲಾವಣೆಗಳಿಗೆ ಪರಿವೀಕ್ಷಕ"
++msgstr "ಮೆನು ಬದಲಾವಣೆಗಳ ಪರಿವೀಕ್ಷಕ"
+ 
+ #: ../util/test-menu-spec.c:35
+ msgid "Include <Exclude>d entries"
+@@ -266,4 +265,3 @@
+ #: ../util/test-menu-spec.c:189
+ msgid "- test GNOME's implementation of the Desktop Menu Specification"
+ msgstr "- ಗಣಕತೆರೆ ಮೆನು ಸೂಚನೆಗಳ GNOME ನ ಅನ್ವಯಿಸುವಿಕೆಯನ್ನು ಪರೀಕ್ಷಿಸುತ್ತದೆ"
+-
+diff -urN a/po/ru.po b/po/ru.po
+--- a/po/ru.po	2010-05-05 17:36:02.065155753 +0530
++++ b/po/ru.po	2010-05-05 17:36:22.159241541 +0530
+@@ -3,49 +3,28 @@
+ #
+ # Dmitry G. Mastrukov <dmitry@taurussoft.org>, 2004.
+ # Leonid Kanter <leon@asplinux.ru>, 2005, 2007.
++# Yulia <ypoyarko@redhat.com>, 2010.
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: gnome-menus trunk\n"
++"Project-Id-Version: ru\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2007-09-16 19:34+0400\n"
+-"PO-Revision-Date: 2007-09-16 12:53+0200\n"
+-"Last-Translator: Nickolay V. Shmyrev <nshmyrev@yandex.ru>\n"
+-"Language-Team: Russian <gnome-cyr@gnome.org>\n"
++"POT-Creation-Date: 2010-03-29 13:13+0530\n"
++"PO-Revision-Date: 2010-04-13 10:15\n"
++"Last-Translator: Yulia <ypoyarko@redhat.com>\n"
++"Language-Team: Russian\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
++"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
++"X-Generator: KBabel 1.11.4\n"
+ 
+-#: ../desktop-directories/Accessibility.directory.in.h:1
+-#: ../desktop-directories/Settings-Accessibility.directory.in.h:1
+-msgid "Universal Access"
+-msgstr "Специальные возможности"
+-
+-#: ../desktop-directories/Accessibility.directory.in.h:2
+-msgid "Universal Access Settings"
+-msgstr "Параметры специальных возможностей"
+-
+-#: ../desktop-directories/Accessories.directory.in.h:1
+-msgid "Accessories"
+-msgstr "Стандартные"
+-
+-#: ../desktop-directories/Accessories.directory.in.h:2
+-msgid "Desktop accessories"
+-msgstr "Стандартные приложения"
+-
+-#: ../desktop-directories/Applications.directory.in.h:1
+-msgid "Applications"
+-msgstr "Приложения"
+-
+-#: ../desktop-directories/Desktop.directory.in.h:1
+-msgid "Personal preferences and administration settings"
+-msgstr "Личные предпочтения и административные параметры"
++#: ../desktop-directories/AudioVideo.directory.in.h:1
++msgid "Multimedia menu"
++msgstr "Мультимедиа"
+ 
+-#: ../desktop-directories/Desktop.directory.in.h:2
+-#: ../desktop-directories/System.directory.in.h:1
+-msgid "System"
+-msgstr "Система"
++#: ../desktop-directories/AudioVideo.directory.in.h:2
++msgid "Sound & Video"
++msgstr "Аудио и видео"
+ 
+ #: ../desktop-directories/Development.directory.in.h:1
+ msgid "Programming"
+@@ -59,11 +38,11 @@
+ msgid "Education"
+ msgstr "Образовательные"
+ 
+-#: ../desktop-directories/Games.directory.in.h:1
++#: ../desktop-directories/Game.directory.in.h:1
+ msgid "Games"
+ msgstr "Игры"
+ 
+-#: ../desktop-directories/Games.directory.in.h:2
++#: ../desktop-directories/Game.directory.in.h:2
+ msgid "Games and amusements"
+ msgstr "Игры и развлечения"
+ 
+@@ -91,14 +70,6 @@
+ msgid "Network-related settings"
+ msgstr "Параметры, относящиеся к настройке сети"
+ 
+-#: ../desktop-directories/Internet.directory.in.h:1
+-msgid "Internet"
+-msgstr "Интернет"
+-
+-#: ../desktop-directories/Internet.directory.in.h:2
+-msgid "Programs for Internet access such as web and email"
+-msgstr "Программы для работы с Интернетом (почта, браузер и т.п.)"
+-
+ #: ../desktop-directories/LookAndFeel.directory.in.h:1
+ msgid "Look and Feel"
+ msgstr "Оформление"
+@@ -107,13 +78,13 @@
+ msgid "Settings controlling the desktop appearance and behavior"
+ msgstr "Параметры, влияющие на внешний вид и поведение рабочего стола"
+ 
+-#: ../desktop-directories/Multimedia.directory.in.h:1
+-msgid "Multimedia menu"
+-msgstr "Мультимедиа"
++#: ../desktop-directories/Network.directory.in.h:1
++msgid "Internet"
++msgstr "Интернет"
+ 
+-#: ../desktop-directories/Multimedia.directory.in.h:2
+-msgid "Sound & Video"
+-msgstr "Аудио и видео"
++#: ../desktop-directories/Network.directory.in.h:2
++msgid "Programs for Internet access such as web and email"
++msgstr "Программы для работы с Интернетом (почта, браузер и т.п.)"
+ 
+ #: ../desktop-directories/Office.directory.in.h:1
+ msgid "Office"
+@@ -123,14 +94,6 @@
+ msgid "Office Applications"
+ msgstr "Офисные приложения"
+ 
+-#: ../desktop-directories/Other.directory.in.h:1
+-msgid "Applications that did not fit in other categories"
+-msgstr "Приложения, не подпадающие ни под какие категории"
+-
+-#: ../desktop-directories/Other.directory.in.h:2
+-msgid "Other"
+-msgstr "Прочие"
+-
+ #: ../desktop-directories/Personal.directory.in.h:1
+ msgid "Personal"
+ msgstr "Персональные"
+@@ -139,35 +102,31 @@
+ msgid "Personal settings"
+ msgstr "Персональные параметры"
+ 
+-#: ../desktop-directories/Preferences.directory.in.h:1
++#: ../desktop-directories/Settings-System.directory.in.h:1
++msgid "Administration"
++msgstr "Администрирование"
++
++#: ../desktop-directories/Settings-System.directory.in.h:2
++msgid "Change system-wide settings (affects all users)"
++msgstr "Изменение системных установок (влияет на всех пользователей)"
++
++#: ../desktop-directories/Settings.directory.in.h:1
+ msgid "Personal preferences"
+ msgstr "Персональные предпочтения"
+ 
+-#: ../desktop-directories/Preferences.directory.in.h:2
+ #: ../desktop-directories/Settings.directory.in.h:2
+ msgid "Preferences"
+ msgstr "Параметры"
+ 
+-#: ../desktop-directories/Settings-Accessibility.directory.in.h:2
+-msgid "Universal access related preferences"
+-msgstr "Параметры, связанные со специальными возможностями"
+-
+-#: ../desktop-directories/Settings.directory.in.h:1
+-msgid "Personal preferences and settings"
+-msgstr "Персональные настройки и установки"
++#: ../desktop-directories/System.directory.in.h:1
++#: ../desktop-directories/X-GNOME-Menu-System.directory.in.h:2
++msgid "System"
++msgstr "Система"
+ 
+ #: ../desktop-directories/System.directory.in.h:2
+ msgid "System settings"
+ msgstr "Системные параметры"
+ 
+-#: ../desktop-directories/System-Settings.directory.in.h:1
+-msgid "Administration"
+-msgstr "Администрирование"
+-
+-#: ../desktop-directories/System-Settings.directory.in.h:2
+-msgid "Change system-wide settings (affects all users)"
+-msgstr "Изменение системных установок (влияет на всех пользователей)"
+-
+ #: ../desktop-directories/System-Tools.directory.in.h:1
+ msgid "System Tools"
+ msgstr "Системные"
+@@ -176,36 +135,74 @@
+ msgid "System configuration and monitoring"
+ msgstr "Средства конфигурации и мониторинга системы"
+ 
++#: ../desktop-directories/Utility-Accessibility.directory.in.h:1
++msgid "Universal Access"
++msgstr "Специальные возможности"
++
++#: ../desktop-directories/Utility-Accessibility.directory.in.h:2
++msgid "Universal Access Settings"
++msgstr "Параметры специальных возможностей"
++
++#: ../desktop-directories/Utility.directory.in.h:1
++msgid "Accessories"
++msgstr "Стандартные"
++
++#: ../desktop-directories/Utility.directory.in.h:2
++msgid "Desktop accessories"
++msgstr "Стандартные приложения"
++
++#: ../desktop-directories/X-GNOME-Menu-Applications.directory.in.h:1
++msgid "Applications"
++msgstr "Приложения"
++
++#: ../desktop-directories/X-GNOME-Menu-System.directory.in.h:1
++msgid "Personal preferences and administration settings"
++msgstr "Личные предпочтения и административные параметры"
++
++#: ../desktop-directories/X-GNOME-Other.directory.in.h:1
++msgid "Applications that did not fit in other categories"
++msgstr "Приложения, не подпадающие ни под какие категории"
++
++#: ../desktop-directories/X-GNOME-Other.directory.in.h:2
++msgid "Other"
++msgstr "Прочие"
++
+ #: ../simple-editor/gmenu-simple-editor.desktop.in.h:1
+ msgid "Menu Editor"
+ msgstr "Редактор меню"
+ 
+-#: ../simple-editor/gmenu-simple-editor.glade.h:1
++#: ../simple-editor/gmenu-simple-editor.ui.h:1
+ msgid "Edit Menus"
+ msgstr "Редактирование меню"
+ 
+-#: ../simple-editor/gmenu-simple-editor.glade.h:2
++#: ../simple-editor/gmenu-simple-editor.ui.h:2
+ msgid "_Applications:"
+ msgstr "_Приложения:"
+ 
+-#: ../simple-editor/gmenu-simple-editor.glade.h:3
++#: ../simple-editor/gmenu-simple-editor.ui.h:3
+ msgid "_Defaults"
+ msgstr "_Исходный вид"
+ 
+-#: ../simple-editor/gmenu-simple-editor.glade.h:4
++#: ../simple-editor/gmenu-simple-editor.ui.h:4
+ msgid "_Menus:"
+ msgstr "_Меню:"
+ 
+-#: ../simple-editor/GMenuSimpleEditor/maindialog.py:96
+-#: ../simple-editor/GMenuSimpleEditor/maindialog.py:123
++#. Translators: %s is the version number
++#: ../simple-editor/GMenuSimpleEditor/main.py:49
++#, python-format
++msgid "Simple Menu Editor %s"
++msgstr "Простой редактор меню %s"
++
++#: ../simple-editor/GMenuSimpleEditor/maindialog.py:94
++#: ../simple-editor/GMenuSimpleEditor/maindialog.py:121
+ msgid "Name"
+ msgstr "Имя"
+ 
+-#: ../simple-editor/GMenuSimpleEditor/maindialog.py:115
++#: ../simple-editor/GMenuSimpleEditor/maindialog.py:113
+ msgid "Show"
+ msgstr "Отображать"
+ 
+-#: ../simple-editor/GMenuSimpleEditor/menufilewriter.py:44
++#: ../simple-editor/GMenuSimpleEditor/menufilewriter.py:42
+ msgid ""
+ "Cannot find home directory: not set in /etc/passwd and no value for $HOME in "
+ "environment"
+@@ -246,6 +243,7 @@
+ msgstr " <excluded>"
+ 
+ #: ../util/test-menu-spec.c:164
++#, c-format
+ msgid ""
+ "\n"
+ "\n"
+@@ -267,5 +265,5 @@
+ 
+ #: ../util/test-menu-spec.c:189
+ msgid "- test GNOME's implementation of the Desktop Menu Specification"
+-msgstr ""
+-"- проверка реализации спецификации Desktop Menu, использованной в GNOME"
++msgstr "- проверка реализации спецификации Desktop Menu, использованной в GNOME"
++
+diff -urN a/po/ta.po b/po/ta.po
+--- a/po/ta.po	2010-05-05 17:36:02.068154729 +0530
++++ b/po/ta.po	2010-05-05 17:36:23.072143351 +0530
+@@ -4,26 +4,26 @@
+ #
+ # Shakthi Kannan <shaks@shakthimaan.com>, 2006.
+ # Jayaradha N <jayaradhaa@gmail.com>, 2006.
+-# Dr.T.Vasudevan <agnihot3@gmail.com>, 2007, 2009.
++# Dr.T.Vasudevan <agnihot3@gmail.com>, 2007, 2009, 2010.
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: gnome-menus.HEAD\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2009-07-29 12:11+0530\n"
+-"PO-Revision-Date: 2009-07-29 12:12+0530\n"
+-"Last-Translator: Dr.T.Vasudevan <agnihot3@gmail.com>\n"
+-"Language-Team: Tamil <Ubuntu-l10n-tam@lists.ubuntu.com>\n"
++"POT-Creation-Date: 2010-03-29 13:13+0530\n"
++"PO-Revision-Date: 2010-04-15 14:54+0530\n"
++"Last-Translator: \n"
++"Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+-"X-Generator: Lokalize 0.3\n"
++"X-Generator: Lokalize 1.0\n"
+ "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+ "\n"
+ "\n"
+ 
+ #: ../desktop-directories/AudioVideo.directory.in.h:1
+ msgid "Multimedia menu"
+-msgstr "பல்முனை ஊடகப் பட்டியல்"
++msgstr "பல்ஊடகப் பட்டியல்"
+ 
+ #: ../desktop-directories/AudioVideo.directory.in.h:2
+ msgid "Sound & Video"
+@@ -59,19 +59,19 @@
+ 
+ #: ../desktop-directories/Hardware.directory.in.h:1
+ msgid "Hardware"
+-msgstr "வண் பொருட்கள்"
++msgstr "வன்பொருட்கள்"
+ 
+ #: ../desktop-directories/Hardware.directory.in.h:2
+ msgid "Settings for several hardware devices"
+-msgstr "பல வண் பொருட்களுக்கான அமைப்புகள்"
++msgstr "பல வன்பொருட்கள் சாதனங்களுக்கான அமைப்புகள்"
+ 
+ #: ../desktop-directories/InternetAndNetwork.directory.in.h:1
+ msgid "Internet and Network"
+-msgstr "இணையம் மற்றும் வலையமைப்பு"
++msgstr "இணையம் மற்றும் பிணையம்"
+ 
+ #: ../desktop-directories/InternetAndNetwork.directory.in.h:2
+ msgid "Network-related settings"
+-msgstr "வலையமைப்பு சார்ந்த வடிவமைப்புகள்"
++msgstr "பிணையம் சார்ந்த அமைவுகள்"
+ 
+ #: ../desktop-directories/LookAndFeel.directory.in.h:1
+ msgid "Look and Feel"
+@@ -87,7 +87,7 @@
+ 
+ #: ../desktop-directories/Network.directory.in.h:2
+ msgid "Programs for Internet access such as web and email"
+-msgstr "வலைப்பின்னல் மற்றும் மின்னஞ்சல் போன்ற இணைய அணுகலுக்கான நிரல்கள் "
++msgstr "வலை மற்றும் மின்னஞ்சல் போன்ற இணைய அணுகலுக்கான நிரல்கள் "
+ 
+ #: ../desktop-directories/Office.directory.in.h:1
+ msgid "Office"
+@@ -132,11 +132,11 @@
+ 
+ #: ../desktop-directories/System-Tools.directory.in.h:1
+ msgid "System Tools"
+-msgstr "கணிப்பொறிக் கருவிகள்"
++msgstr "கணினி கருவிகள்"
+ 
+ #: ../desktop-directories/System-Tools.directory.in.h:2
+ msgid "System configuration and monitoring"
+-msgstr "கணிப்பொறி அமைப்பு மற்றும் கண்காணித்தல்"
++msgstr "கணினி கட்டமைப்பு மற்றும் கண்காணித்தல்"
+ 
+ #: ../desktop-directories/Utility-Accessibility.directory.in.h:1
+ msgid "Universal Access"
+@@ -144,7 +144,7 @@
+ 
+ #: ../desktop-directories/Utility-Accessibility.directory.in.h:2
+ msgid "Universal Access Settings"
+-msgstr "உலகளாவிய அணுகல் அமைப்புகள்"
++msgstr "உலகளாவிய அணுகல் அமைவுகள்"
+ 
+ #: ../desktop-directories/Utility.directory.in.h:1
+ msgid "Accessories"
+@@ -152,7 +152,7 @@
+ 
+ #: ../desktop-directories/Utility.directory.in.h:2
+ msgid "Desktop accessories"
+-msgstr "மேஜை துணைப்பொருள்கள்"
++msgstr "பணிமேடை துணைப்பொருள்கள்"
+ 
+ #: ../desktop-directories/X-GNOME-Menu-Applications.directory.in.h:1
+ msgid "Applications"
+@@ -180,18 +180,19 @@
+ 
+ #: ../simple-editor/gmenu-simple-editor.ui.h:2
+ msgid "_Applications:"
+-msgstr "பயன்பாடுகள்(_A):"
++msgstr "பயன்பாடுகள் (_A):"
+ 
+ #: ../simple-editor/gmenu-simple-editor.ui.h:3
+ msgid "_Defaults"
+-msgstr "முன்னிருப்பு மதிப்புகள்(_D)"
++msgstr "முன்னிருப்புகள் (_D)"
+ 
+ #: ../simple-editor/gmenu-simple-editor.ui.h:4
+ msgid "_Menus:"
+-msgstr "பட்டியல்கள்(_M)"
++msgstr "மெனுக்கள் (_M):"
+ 
+ #. Translators: %s is the version number
+-#: ../simple-editor/GMenuSimpleEditor/main.py:49, python-format
++#: ../simple-editor/GMenuSimpleEditor/main.py:49
++#, python-format
+ msgid "Simple Menu Editor %s"
+ msgstr "எளிய பட்டியல் திருத்தி %s"
+ 
+@@ -214,7 +215,7 @@
+ 
+ #: ../util/test-menu-spec.c:33
+ msgid "Menu file"
+-msgstr "பட்டியல் கோப்பு"
++msgstr "மெனு கோப்பு"
+ 
+ #: ../util/test-menu-spec.c:33
+ msgid "MENU_FILE"
+@@ -234,7 +235,7 @@
+ 
+ #: ../util/test-menu-spec.c:91
+ msgid "Invalid desktop file ID"
+-msgstr "செல்லுபடியாகாத  மேஜைக் கோப்பு ஐடி"
++msgstr "செல்லுபடியாகாத  பணிமேடை கோப்பு குறியீடு"
+ 
+ #: ../util/test-menu-spec.c:92
+ msgid "[Invalid Filename]"
+@@ -242,7 +243,7 @@
+ 
+ #: ../util/test-menu-spec.c:93
+ msgid " <excluded>"
+-msgstr " <சேர்க்காதவை>"
++msgstr " <excluded>"
+ 
+ #: ../util/test-menu-spec.c:164
+ #, c-format
+@@ -257,13 +258,13 @@
+ "\n"
+ "\n"
+ "\n"
+-"=== பட்டியல் மாற்றப்பட்டுள்ளது, மீண்டும் ஏற்றப்படுகிறது ===\n"
++"==== மெனு மாற்றப்பட்டுள்ளது, மீளேற்றுகிறது ====\n"
+ "\n"
+ "\n"
+ 
+ #: ../util/test-menu-spec.c:169 ../util/test-menu-spec.c:211
+ msgid "Menu tree is empty"
+-msgstr "பட்டியல் தூண் காலியாக உள்ளது"
++msgstr "மெனு கிளை காலியாக உள்ளது"
+ 
+ #: ../util/test-menu-spec.c:189
+ msgid "- test GNOME's implementation of the Desktop Menu Specification"
+diff -urN a/po/zh_CN.po b/po/zh_CN.po
+--- a/po/zh_CN.po	2010-05-05 17:36:02.058154892 +0530
++++ b/po/zh_CN.po	2010-05-05 17:36:21.789113901 +0530
+@@ -1,22 +1,22 @@
+-# SOME DESCRIPTIVE TITLE.
++# translation of zh_CN.po to Wei Liu
+ # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+ # This file is distributed under the same license as the PACKAGE package.
+-# Funda Wang <fundawang@linux.net.cn>, 2004.
+ #
++# Funda Wang <fundawang@linux.net.cn>, 2004.
++# Leah Liu <lliu@redhat.com>, 2010.
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: gnome-menus HEAD\n"
+-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+-"menus&component=general\n"
+-"POT-Creation-Date: 2009-07-23 08:15+0000\n"
+-"PO-Revision-Date: 2009-07-15 19:45+0000\n"
+-"Last-Translator: 甘露 (Lu Gan) <rhythm.gan@gmail.com>\n"
+-"Language-Team: zh_CN <i18n-translation@lists.linux.net.cn>\n"
++"Project-Id-Version: zh_CN\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2010-03-29 13:13+0530\n"
++"PO-Revision-Date: 2010-04-08 19:16+1000\n"
++"Last-Translator: Leah Liu <lliu@redhat.com>\n"
++"Language-Team: Wei Liu\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+ "X-Launchpad-Export-Date: 2009-07-26 05:48+0000\n"
+-"X-Generator: Launchpad (build Unknown)\n"
++"X-Generator: KBabel 1.11.4\n"
+ "X-Poedit-Country: CHINA\n"
+ "X-Poedit-Language: Chinese\n"
+ 
+@@ -193,7 +193,7 @@
+ #: ../simple-editor/GMenuSimpleEditor/main.py:49
+ #, python-format
+ msgid "Simple Menu Editor %s"
+-msgstr ""
++msgstr "简单菜单编辑器 %s"
+ 
+ #: ../simple-editor/GMenuSimpleEditor/maindialog.py:94
+ #: ../simple-editor/GMenuSimpleEditor/maindialog.py:121
+@@ -266,3 +266,4 @@
+ #: ../util/test-menu-spec.c:189
+ msgid "- test GNOME's implementation of the Desktop Menu Specification"
+ msgstr "- 测试 GNOME 对桌面菜单规范的实现"
++
